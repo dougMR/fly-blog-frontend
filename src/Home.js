@@ -51,7 +51,7 @@ const Home = () => {
 					id="searchInput"
 					className="form-control"
 				></input>
-				<button type="submit" className="form-control">
+				<button style={{margin: "1rem 0"}}type="submit" className="form-control">
 					Search
 				</button>
 			</form>
@@ -70,6 +70,7 @@ const Home = () => {
 			</div>
 			{/* <!-- end of posts row--> */}
 			<div id="actionLinks">
+				{console.log('user',user)}
 				{!user && <Link to="/sign-in">Sign In</Link>}
 				{user && user?.publicMetadata?.admin && (
 					<Link to="/newPost">New Post</Link>

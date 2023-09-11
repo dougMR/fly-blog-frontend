@@ -1,3 +1,3 @@
-const APIURL = `http://localhost:3011`;
+const APIURL = `https://api.megadoug.art`;
 
 export default APIURL;

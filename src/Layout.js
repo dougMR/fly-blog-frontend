@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
 	return (
 		<div className="container">
-			<h1>Max's Blog</h1>
+			<h1><strong><em>Blog</em></strong>, by Max</h1>
 			<hr />
 			<Outlet />
 			{/* <Navbar /> */}
