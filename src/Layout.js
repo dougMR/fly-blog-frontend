@@ -5,7 +5,7 @@ const Layout = () => {
 		<div className="container">
 			<h1><strong><em>Blog</em></strong>, by Max</h1>
 			<hr />
-			<Outlet />
+			<Outlet/>
 			{/* <Navbar /> */}
 		</div>
 	);

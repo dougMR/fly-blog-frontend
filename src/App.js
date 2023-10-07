@@ -20,6 +20,7 @@ const myRoutes = createBrowserRouter([
 	{
 		path: "/",
 		element: <Layout />,
+		// Why are these children?  What does that do?
 		children: [
 			{
 				path: "/",
@@ -42,6 +43,7 @@ const myRoutes = createBrowserRouter([
 				path: "/sign-up/*",
 				element: <SignUp routing="path" path="/sign-up" />,
 			},
+
 		],
 	},
 	// {
